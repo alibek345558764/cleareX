@@ -1,0 +1,376 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+button {
+    background: #0075FF;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 8px;
+}
+
+a {
+    color: #211F54;
+}
+
+a:hover {
+    border-bottom: 2px solid #211F54;
+}
+
+button:hover {
+    background: transparent;
+    border: 2px solid #0075FF;
+    color: #0075FF;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 0 10px 1px #0075FF;
+}
+
+.phone {
+    width: 60px;
+}
+
+p {
+    color: #6E7191;
+}
+
+.call-btn {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 50px;
+}
+
+.call {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.call-text {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.sec-1-text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sec-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.sec-1-img {
+    width: 670px;
+}
+
+h1 {
+    font-size: 65px;
+    color: #211F54;
+}
+
+.sec-2 {
+    text-align: center;
+}
+
+.card {
+    width: 375px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.btns {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.explore {
+    background: #EFF0F6;
+    color: black;
+    border: 1px solid #14142B0A;
+}
+
+.explore:hover {
+    border: 1px solid #0075FF;
+    color: black;
+}
+
+.sec-3-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sec-3-text h1 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.card {
+    text-align: center;
+}
+
+.sec-3-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.sec-4-div {
+    width: 1220px;
+    height: 676px;
+    background: #211F54;
+    border-radius: 30px;
+    display: flex;
+    color: white;
+}
+
+.sec-4-div h1 {
+    color: white;
+    font-size: 55px;
+}
+
+.sec-4-div p {
+    color: white;
+}
+
+.sec-4-div button {
+    width: 210px;
+    height: 70px;
+    border-radius: 15px;
+    font-size: larger;
+    color: white;
+}
+
+.sec-5-text h1 {
+    font-size: 45px;
+}
+
+.sec-5-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 200px;
+    margin-bottom: 60px;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.box-text {
+    width: 570px;
+    background: white;
+    padding-top: 50px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+    transform: translateY(-50px);
+    border-radius: 30px;
+    padding-left: 30px;
+    margin-left: 10px;
+}
+
+.boxs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.sec-6-texts {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 50px;
+}
+
+.sec-6-text1 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 20px;
+    border-bottom: 1px solid rgb(222, 222, 222);
+    padding-bottom: 30px;
+}
+
+.sec-6-texts h1 {
+    font-size: 40px;
+}
+
+.sec-6-text2 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 20px;
+}
+
+.sec-6-text2 button {
+    padding: 10px;
+    width: 170px;
+    height: 50px;
+}
+
+.sec-6-inputs {
+    width: 673px;
+    height: 628px;
+    border-radius: 16px;
+    border-width: 1px;
+    background: white;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+.sec-6 {
+    width: 100%;
+    padding-top: 100px;
+    background: #F7F9FC;
+    display: flex;
+    align-items: center;
+    height: 900px;
+    justify-content: space-around;
+}
+
+input {
+    border-radius: 22px;
+    background: white;
+    border: 1px solid rgb(226, 226, 226);
+    width: 259px;
+    height: 72px;
+    padding-left: 20px;
+    box-shadow: 0px 2px 12px 0px #14142B14;
+    transition: all 0.25s ease;
+}
+
+input:focus {
+    outline: none;
+    border-color: #6C63FF;
+    background: #fff;
+    box-shadow: 0 6px 20px rgba(108, 99, 255, 0.25);
+    transform: translateY(-1px);
+}
+
+textarea:focus {
+    outline: none;
+    border-color: #6C63FF;
+    background: #fff;
+    box-shadow: 0 6px 20px rgba(108, 99, 255, 0.25);
+    transform: translateY(-1px);
+}
+
+textarea {
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 22px;
+    width: 550px;
+    height: 150px;
+    background: white;
+    padding-left: 20px;
+    padding-top: 10px;
+    box-shadow: 0px 2px 12px 0px #14142B14;
+}
+.inputs{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.submit{
+    margin-top: 80px;
+    margin-left: 15px;
+    width: 150px;
+    height: 50px;
+}
+.sec-7-texts{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.sec-7-text1{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 20px;
+    width: 300px;
+}
+.sec-7-text2{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 20px;
+    width: 300px;
+}
+.sec-7-text3{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
+    width: 300px;
+}
+.sec-7-text4{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
+    width: 300px;
+}
+h2 , h4{
+    color: #211F54;
+}
+h3{
+    color: #0075FF;
+}

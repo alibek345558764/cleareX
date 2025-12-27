@@ -1,0 +1,37 @@
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 800px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart-btn {
+    background: transparent;
+    border: none;
+    color: black;
+}
+
+header {
+    height: 110px;
+    margin-top: 20px;
+}
+
+.cart-btn:hover {
+    border: none;
+    color: black;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.header-btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
